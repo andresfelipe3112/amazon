@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Inconsolata:wght@200&display=swap');
+
+.ContainerName{
+    width:90%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.title{
+    font-family: 'Alata', sans-serif;
+    width:80%;
+    padding-top:5vh;
+    margin-bottom: 50px;
+}
+
+.subtitle{
+    width:80%;
+    font-family: 'Inconsolata', monospace;
+   
+}

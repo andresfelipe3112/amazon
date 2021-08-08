@@ -1,0 +1,43 @@
+.Container{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.Containe-home {
+    width: 65%;
+    height: 700px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-image: url(../img/Burbuja.png);
+    background-size: 450px 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+#final{
+    width: 500px;
+    height: 450px;
+     animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease-in-out
+    
+}
+
+
+/* @keyframes slidein {
+    50% {
+     padding-bottom: 4%;
+    }
+  
+    100% {
+        padding-top:0px;
+      
+    }
+  } */
