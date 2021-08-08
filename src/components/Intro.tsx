@@ -1,4 +1,3 @@
-import React from 'react'
 import "./intro.css"
 import logoBlanco from "../img/logoBlanco.png"
 
@@ -22,7 +21,7 @@ function Intro() {
 
 
                 {/* <h3 className="subtitleIntroDos"> Importa desde China y vende en Amazon </h3> */}
-                <iframe width="660" height="355" src="https://www.youtube.com/embed/v4EY3UIhbqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="660" height="355" src="https://www.youtube.com/embed/v4EY3UIhbqI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     )
